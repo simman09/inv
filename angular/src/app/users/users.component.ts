@@ -38,7 +38,6 @@ export class UsersComponent extends PagedListingComponentBase<UserDto> {
   ) {
     super(injector, cd);
   }
-
   createUser(): void {
     this.showCreateOrEditUserDialog();
   }
